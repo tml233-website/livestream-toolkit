@@ -1,0 +1,25 @@
+@font-face {
+    font-family: mario-maker;
+    src: url("../../assets/fonts/mario-maker.otf");
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+}
+.common{
+    font-family: mario-maker;
+    font-weight: bold;
+    text-align: center;
+}
+.date{
+    font-size: 1em;
+    margin-top: -0.6em;
+    margin-bottom: -0.6em;
+    color: gray;
+}
+.time{
+    margin-top: -0.5em;
+    font-size: 1.5em;
+    color: black;
+}
